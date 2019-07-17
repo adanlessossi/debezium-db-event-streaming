@@ -53,15 +53,21 @@ Start a MySQL command line client container, assign the name mysqlterm and conne
 
 ---
 
-After connection to the server,
+<p>After connection to the server,</p>
+
 a) switch to the inventory database.
+
 `mysql> use inventory;`
 
-    b) List the database tables
-    `mysql> show tables;`
+<p></p>
+b) List the database tables
 
-    c) Explore the data in the database
-    `mysql> SELECT * FROM customers;`
+`mysql> show tables;`
+
+<p></p>
+c) Explore the data in the database
+
+`mysql> SELECT * FROM customers;`
 
 ---
 
@@ -93,12 +99,17 @@ with a JSON document that describes our new connector.
 
 Here, we want that:
 
-    a) Exactly 1 Task should operate
-    b) The database host is mysql, the name of the docker container.
-    c) The MySQL port is specified
-    d) The database has a debezium user set up.
-    e) An unique server ID and name are given (logical identifier for the MySQL Server or cluster of servers)
-    f) The connector should store the history of the database schema in kafka using the named broker and topic name.
+a) Exactly 1 Task should operate
+
+b) The database host is mysql, the name of the docker container.
+
+c) The MySQL port is specified
+
+d) The database has a debezium user set up.
+
+e) An unique server ID and name are given (logical identifier for the MySQL Server or cluster of servers)
+
+f) The connector should store the history of the database schema in kafka using the named broker and topic name.
 
 ---
 
