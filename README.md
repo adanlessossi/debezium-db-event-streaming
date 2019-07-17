@@ -16,6 +16,8 @@ Follow the instructions in this README file to get you up and running on your lo
 
 ### Prerequisites
 
+A bit of docker and container technology will not harm you!
+
 - Docker version 18.09.02 (Windows 10 Pro)
 - docker-compose version 1.23.2, build 1110ad01
 - docker-py version: 3.6.0
