@@ -1,7 +1,9 @@
 # MySQL Database Event Streaming with Debezium using multi-container deployment
 
 Last time, I found out a very efficient way to stream database changes to a Kafka Broker.
-The solution is using Debezium ([Debezium]: <http://debezium.io/>), a quite efficient way to stream events on database.
+The solution is using [Debezium], a quite efficient way to stream events on database.
+
+Or leave it empty and use the [link text itself].
 
 Our goals here are to:
 
@@ -9,6 +11,12 @@ Our goals here are to:
 - Record the history of data changes in kafka logs
 - Crash resistent
 - No missed records
+
+[debezium]: http://debezium.io
+
+## Disclaimer
+
+This is just a try out of Debezium and use it as inspiration to solve specific business problems.
 
 ## Getting Started
 
@@ -173,7 +181,7 @@ But for cleaning up, please issue the command:
 
 ## Authors
 
-- **Bernard Adanlessossi**
+- **Bernard Adanlessossi** <adanlessossi@hotmail.com>
 
 ## License
 
